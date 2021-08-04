@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION['adminname']);
+?>
+	<script>
+	window.location.href='adminlogin.php';
+	</script>
+	<?php
+	die();
+?>
